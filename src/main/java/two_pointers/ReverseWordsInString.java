@@ -23,8 +23,8 @@ public class ReverseWordsInString {
         }
 
         StringBuilder result = new StringBuilder();
-        for (String s : reversedString) {
-            result.append(s).append(" ");
+        for (int i = 0; i < reversedString.length; i++) {
+            result.append(reversedString[i]).append(" ");
         }
         return result.toString();
     }
